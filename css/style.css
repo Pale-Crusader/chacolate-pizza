@@ -7,20 +7,28 @@ header {
 header img {
     float: left;
 }
+@font-face {
+font-family: yellowtail;
+src: url(css/third-party-fonts/yellowtail/yellowtail-regular.otf) ;
+}
 header h1 {
     font-style: italic;
-    font-family: cursive;
+    font-family: yellowtail, cursive;
+}
+header h1:first-letter {
+    font-style: italic;
+    font-family:  yellowtail, cursive;
+    font-size: xx-large;
 }
 header {
     font-family: monospace;
 }
 header nav {
-    display: inline-block;
     float: right;
 }
 header hr {
-    border-bottom: 10px solid transparent;
-    border-image:  url(img/hr-img.png) 30 repeat;
+    border: none
+    filter: alpha(opacity=0);
 }
 main {
     display: block;
@@ -28,21 +36,21 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
-main div h1 {
+#intro h1 {
     width: 500px;
     display: inline-block;
     font-family: sans-serif;
     height: fit-content;
     margin: 0px;
 }
-main div div {
+#intro div {
     display: inline-block;
     width: 50px;
     float: right;
     color: lightgrey;
     font-family: monospace;
 }
-main div h4 {
+#intro h4 {
     color: lightgrey;
     font-family: monospace;
     height: fit-content;
@@ -50,23 +58,24 @@ main div h4 {
 }
 main p {
     text-indent: 15px;
+    font-size: large;
 }
-main section img {
+#recipe img {
     z-index: 1;
     position: absolute;
 }
-main section div {
+#recipe div {
     position: relative;
     z-index: 2;
 }
-main section div ul {
+#recipe div ul {
     width: 400px;
     z-index: 3;
     display: inline-block;
     vertical-align: top;
     margin-top: 30px;
 }
-main section div ul li {
+#recipe div ul li {
     font-family: cursive, sans-serif;
     font-size: 20px;
     list-style-type: none;
@@ -77,4 +86,62 @@ footer {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
+
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 10px;
+    margin-top: 0px;
+    background-color: rgb(188, 112, 88);
+    font-family: sans-serif;
+}
+footer a:hover {
+    color: rgb(188, 112, 88);
+    background-color: rgb(102, 163, 186);
+}
+footer img {
+position: relative;
+margin-left: auto;
+margin-right: auto;
+float: left;
+}
+footer h5 {
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+#bio {
+    width: 600px;
+    font-size: large;
+    margin-top: 5px;
+}
+footer div {
+    margin-top: 50px;
+}
+#logoLine {
+    z-index: 1;
+    position: absolute;
+    width: 900px;
+    margin-top: 15px;
+}
+#smallLogo {
+    position: relative;
+    z-index: 3;
+    display: block;
+    width: 31px;
+    margin-left: 46%;
+    margin-right: 46%;
+}
+
+
+#copywrite {
+    margin-top: 70px;
+    color: lightgray;
+    text-align: center;
+}
+#proud {
+    color: lightgray;
+    text-align: center;
 }
