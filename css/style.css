@@ -7,18 +7,13 @@ header {
 header img {
     float: left;
 }
-@font-face {
-font-family: yellowtail;
-src: url(css/third-party-fonts/yellowtail/yellowtail-regular.otf) ;
-}
 header h1 {
     font-style: italic;
-    font-family: yellowtail, cursive;
+    font-family: cursive;
 }
 header h1:first-letter {
-    font-style: italic;
-    font-family:  yellowtail, cursive;
-    font-size: xx-large;
+    font-style: oblique;
+    font-family:  cursive;
 }
 header {
     font-family: monospace;
@@ -27,8 +22,7 @@ header nav {
     float: right;
 }
 header hr {
-    border: none
-    filter: alpha(opacity=0);
+    border: none;
 }
 main {
     display: block;
@@ -44,7 +38,6 @@ main {
     margin: 0px;
 }
 #intro div {
-    display: inline-block;
     width: 50px;
     float: right;
     color: lightgrey;
@@ -134,8 +127,6 @@ footer div {
     margin-left: 46%;
     margin-right: 46%;
 }
-
-
 #copywrite {
     margin-top: 70px;
     color: lightgray;
