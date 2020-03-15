@@ -13,18 +13,26 @@ src: url(css/third-party-fonts/yellowtail/yellowtail-regular.otf) ;
 }
 #delicious {
     font-style: italic;
+    display: inline-block;
     font-family: yellowtail, cursive;
     width: 450px;
     margin: 0px;
-    font-size: 48px;
+    height: 36px;
+    padding: 0px;
+    font-size: x-large;
+    vertical-align: text-top;
 }
 #delicious:first-letter {
     font-style: italic;
     font-family:  yellowtail, cursive;
-    font-size: 60px;
+    padding-top: 0px;
+    font-size: xx-large;
 }
-header {
-    font-family: monospace;
+#slogan {
+    font-family: san-serif, monospace;
+    margin: 0px;
+    width: 450px;
+    font-weight: lighter;
 }
 #socialmedia {
     float: right;
@@ -38,6 +46,7 @@ header {
     width: 900px;
     background-image: url("https://pale-crusader.github.io/chacolate-pizza/img/hr-img.png");
     background-repeat: repeat-x repeat-y;
+    margin-top: 20px;
 }
 main {
     display: block;
@@ -53,13 +62,18 @@ main {
     margin: 0px;
 }
 #intro div {
-    width: 50px;
+    width: 80px;
     float: right;
     color: lightgrey;
     font-family: monospace;
 }
 #printButton a {
     text-decoration: none;
+    margin: 0pt;
+    height: 16px;
+}
+#printButton a h4 {
+    vertical-align: center;
 }
 #intro h4 {
     color: lightgrey;
