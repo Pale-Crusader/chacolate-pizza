@@ -9,18 +9,19 @@ header {
 }
 @font-face {
 font-family: yellowtail;
-src: url('https://pale-crusader.github.io/chacolate-pizza/css/third-party-fonts/yellowtail/yellowtail-regular.otf') ;
+src: url(css/third-party-fonts/yellowtail/yellowtail-regular.otf) ;
 }
 #delicious {
     font-style: italic;
     font-family: yellowtail, cursive;
     width: 450px;
     margin: 0px;
+    font-size: 48px;
 }
 #delicious:first-letter {
     font-style: italic;
     font-family:  yellowtail, cursive;
-    font-size: 48px;
+    font-size: 60px;
 }
 header {
     font-family: monospace;
