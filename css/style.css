@@ -1,0 +1,80 @@
+header {
+    display: block;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header img {
+    float: left;
+}
+header h1 {
+    font-style: italic;
+    font-family: cursive;
+}
+header {
+    font-family: monospace;
+}
+header nav {
+    display: inline-block;
+    float: right;
+}
+header hr {
+    border-bottom: 10px solid transparent;
+    border-image:  url(img/hr-img.png) 30 repeat;
+}
+main {
+    display: block;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main div h1 {
+    width: 500px;
+    display: inline-block;
+    font-family: sans-serif;
+    height: fit-content;
+    margin: 0px;
+}
+main div div {
+    display: inline-block;
+    width: 50px;
+    float: right;
+    color: lightgrey;
+    font-family: monospace;
+}
+main div h4 {
+    color: lightgrey;
+    font-family: monospace;
+    height: fit-content;
+    margin: 5px;
+}
+main p {
+    text-indent: 15px;
+}
+main section img {
+    z-index: 1;
+    position: absolute;
+}
+main section div {
+    position: relative;
+    z-index: 2;
+}
+main section div ul {
+    width: 400px;
+    z-index: 3;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
+main section div ul li {
+    font-family: cursive, sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+footer {
+    margin-top: 100px;
+    display: block;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
